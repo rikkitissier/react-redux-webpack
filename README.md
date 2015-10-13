@@ -7,9 +7,11 @@ A basic hot-reloading dev environment I'll be using as I start to explore React+
 
 ```
 npm install
-npm start
+DEBUG=true npm start
 open http://localhost:3001
 ```
+
+src/containers/App.js is the setup for redux; replace SampleApp. redux-devtools is used when DEBUG is true.
 
 ### Credit
 
